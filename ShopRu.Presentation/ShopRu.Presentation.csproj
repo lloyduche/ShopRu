@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Customers\Commands\" />
+    <Folder Include="Customers\Handlers\" />
+    <Folder Include="Customers\Models\" />
+    <Folder Include="Customers\Queries\" />
+    <Folder Include="Customers\Validators\" />
+    <Folder Include="Discounts\Commands\" />
+    <Folder Include="Discounts\Handlers\" />
+    <Folder Include="Discounts\Queries\" />
+    <Folder Include="Discounts\Validators\" />
+    <Folder Include="Invoices\Commands\" />
+    <Folder Include="Invoices\Handlers\" />
+    <Folder Include="Invoices\Queries\" />
+    <Folder Include="Invoices\Validators\" />
+  </ItemGroup>
+
+</Project>

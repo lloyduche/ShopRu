@@ -1,0 +1,12 @@
+C:\Users\hp\source\repos\ShopRu\ShopRu.Domain\bin\Debug\net5.0\ShopRu.Domain.deps.json
+C:\Users\hp\source\repos\ShopRu\ShopRu.Domain\bin\Debug\net5.0\ShopRu.Domain.dll
+C:\Users\hp\source\repos\ShopRu\ShopRu.Domain\bin\Debug\net5.0\ref\ShopRu.Domain.dll
+C:\Users\hp\source\repos\ShopRu\ShopRu.Domain\bin\Debug\net5.0\ShopRu.Domain.pdb
+C:\Users\hp\source\repos\ShopRu\ShopRu.Domain\obj\Debug\net5.0\ShopRu.Domain.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\ShopRu\ShopRu.Domain\obj\Debug\net5.0\ShopRu.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\ShopRu\ShopRu.Domain\obj\Debug\net5.0\ShopRu.Domain.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\ShopRu\ShopRu.Domain\obj\Debug\net5.0\ShopRu.Domain.AssemblyInfo.cs
+C:\Users\hp\source\repos\ShopRu\ShopRu.Domain\obj\Debug\net5.0\ShopRu.Domain.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\ShopRu\ShopRu.Domain\obj\Debug\net5.0\ShopRu.Domain.dll
+C:\Users\hp\source\repos\ShopRu\ShopRu.Domain\obj\Debug\net5.0\ref\ShopRu.Domain.dll
+C:\Users\hp\source\repos\ShopRu\ShopRu.Domain\obj\Debug\net5.0\ShopRu.Domain.pdb
