@@ -1,0 +1,58 @@
+[
+  {
+    "FirstName": "Gentry",
+    "LastName": "Maryanne",
+    "Email": "maryannegentry@frosnex.com",
+    "IsAffliate": true,
+    "IsEmployee": false
+  },
+  {
+    "FirstName": "Rodriguez",
+    "LastName": "Vicki",
+    "Email": "vickirodriguez@frosnex.com",
+    "IsAffliate": false,
+    "IsEmployee": true
+  },
+  {
+    "FirstName": "Pace",
+    "LastName": "Jacquelyn",
+    "Email": "jacquelynpace@frosnex.com",
+    "IsAffliate": false,
+    "IsEmployee": false
+  },
+  {
+    "FirstName": "Michael",
+    "LastName": "Corine",
+    "Email": "corinemichael@frosnex.com",
+    "IsAffliate": true,
+    "IsEmployee": false
+  },
+  {
+    "FirstName": "Moody",
+    "LastName": "Cleo",
+    "Email": "cleomoody@frosnex.com",
+    "IsAffliate": false,
+    "IsEmployee": true
+  },
+  {
+    "FirstName": "Fletcher",
+    "LastName": "Rutledge",
+    "Email": "rutledgefletcher@frosnex.com",
+    "IsAffliate": false,
+    "IsEmployee": false
+  },
+  {
+    "FirstName": "Boyd",
+    "LastName": "Helene",
+    "Email": "heleneboyd@frosnex.com",
+    "IsAffliate": true,
+    "IsEmployee": false
+  },
+  {
+    "FirstName": "Walsh",
+    "LastName": "Conley",
+    "Email": "conleywalsh@frosnex.com",
+    "IsAffliate": false,
+    "IsEmployee": true
+  }
+]

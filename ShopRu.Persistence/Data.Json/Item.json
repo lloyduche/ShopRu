@@ -1,0 +1,66 @@
+[
+  {
+    "ItemId": "1",
+    "Type": "Groceries",
+    "ItemName": "bread",
+    "Amount": 500.00
+  },
+  {
+    "ItemId": "2",
+    "Type": "Stationaries",
+    "ItemName": "Book",
+    "Amount": 100.00
+  },
+  {
+    "ItemId": "3",
+    "Type": "Phone And accessories",
+    "ItemName": "Techno",
+    "Amount": 70000.00
+  },
+  {
+    "ItemId": "4",
+    "Type": "Groceries",
+    "ItemName": "Milk",
+    "Amount": 250.00
+  },
+  {
+    "ItemId": "5",
+    "Type": "Stationaries",
+    "ItemName": "Pen",
+    "Amount": 200.00
+  },
+  {
+    "ItemId": "6",
+    "Type": "Fashion",
+    "ItemName": "Shoe",
+    "Amount": 20000.00
+  },
+  {
+    "ItemId": "7",
+    "Type": "Stationaries",
+    "ItemName": "Pen",
+    "Amount": 200.00
+  },
+  {
+    "ItemId": "8",
+    "Type": "Phone And accessories",
+    "ItemName": "Samsung",
+    "Amount": 85000.00
+  },
+  {
+    "ItemId": "9",
+    "Type": "Fashion",
+    "ItemName": "Shirt",
+    "Amount": 15000.00
+  },
+  {
+    "ItemId": "10",
+    "Type": "Groceries",
+    "ItemName": "Cereal",
+    "Amount": 500.00
+  }
+
+
+
+
+]

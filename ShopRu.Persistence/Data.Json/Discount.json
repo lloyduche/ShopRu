@@ -1,0 +1,19 @@
+[
+  {
+    "Id": "1",
+    "rate": 0.1,
+    "Type": "Affliate"
+  },
+  {
+    "Id": "2",
+    "rate": 0.3,
+    "Type": "Employee"
+  },
+  {
+    "Id": "3",
+    "rate": 0.01,
+    "Type": "OverTwoYears"
+  }
+
+
+]

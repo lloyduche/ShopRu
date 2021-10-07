@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using ShopRu.Persistence;
 using ShopRu.Persistence.Context;
 
 namespace ShopRu
@@ -30,7 +31,7 @@ namespace ShopRu
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env,ShopRuDbContext context)
         {
             if (env.IsDevelopment())
             {
@@ -44,6 +45,8 @@ namespace ShopRu
             app.UseRouting();
 
             app.UseAuthorization();
+
+            DataSeeder.Seed(context,app.ApplicationServices).Wait();
 
             app.UseEndpoints(endpoints =>
             {
