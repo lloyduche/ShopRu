@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Customers\Commands\" />
-    <Folder Include="Customers\Handlers\" />
-    <Folder Include="Customers\Models\" />
-    <Folder Include="Customers\Queries\" />
     <Folder Include="Customers\Validators\" />
     <Folder Include="Discounts\Commands\" />
     <Folder Include="Discounts\Handlers\" />
@@ -18,6 +14,15 @@
     <Folder Include="Invoices\Handlers\" />
     <Folder Include="Invoices\Queries\" />
     <Folder Include="Invoices\Validators\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShopRu.Persistence\ShopRu.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

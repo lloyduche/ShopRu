@@ -62,3 +62,7 @@ C:\Users\hp\source\repos\ShopRu\ShopRu\obj\Debug\net5.0\ShopRu.dll
 C:\Users\hp\source\repos\ShopRu\ShopRu\obj\Debug\net5.0\ref\ShopRu.dll
 C:\Users\hp\source\repos\ShopRu\ShopRu\obj\Debug\net5.0\ShopRu.pdb
 C:\Users\hp\source\repos\ShopRu\ShopRu\obj\Debug\net5.0\ShopRu.genruntimeconfig.cache
+C:\Users\hp\source\repos\ShopRu\ShopRu\bin\Debug\net5.0\MediatR.dll
+C:\Users\hp\source\repos\ShopRu\ShopRu\bin\Debug\net5.0\ShopRu.Application.dll
+C:\Users\hp\source\repos\ShopRu\ShopRu\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\hp\source\repos\ShopRu\ShopRu\bin\Debug\net5.0\ShopRu.Application.pdb

@@ -1,0 +1,17 @@
+C:\Users\hp\source\repos\ShopRu\ShopRu.Presentation\bin\Debug\net5.0\ShopRu.Application.deps.json
+C:\Users\hp\source\repos\ShopRu\ShopRu.Presentation\bin\Debug\net5.0\ShopRu.Application.dll
+C:\Users\hp\source\repos\ShopRu\ShopRu.Presentation\bin\Debug\net5.0\ref\ShopRu.Application.dll
+C:\Users\hp\source\repos\ShopRu\ShopRu.Presentation\bin\Debug\net5.0\ShopRu.Application.pdb
+C:\Users\hp\source\repos\ShopRu\ShopRu.Presentation\bin\Debug\net5.0\ShopRu.Domain.dll
+C:\Users\hp\source\repos\ShopRu\ShopRu.Presentation\bin\Debug\net5.0\ShopRu.Persistence.dll
+C:\Users\hp\source\repos\ShopRu\ShopRu.Presentation\bin\Debug\net5.0\ShopRu.Persistence.pdb
+C:\Users\hp\source\repos\ShopRu\ShopRu.Presentation\bin\Debug\net5.0\ShopRu.Domain.pdb
+C:\Users\hp\source\repos\ShopRu\ShopRu.Presentation\obj\Debug\net5.0\ShopRu.Application.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\ShopRu\ShopRu.Presentation\obj\Debug\net5.0\ShopRu.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\ShopRu\ShopRu.Presentation\obj\Debug\net5.0\ShopRu.Application.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\ShopRu\ShopRu.Presentation\obj\Debug\net5.0\ShopRu.Application.AssemblyInfo.cs
+C:\Users\hp\source\repos\ShopRu\ShopRu.Presentation\obj\Debug\net5.0\ShopRu.Application.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\ShopRu\ShopRu.Presentation\obj\Debug\net5.0\ShopRu.Application.csproj.CopyComplete
+C:\Users\hp\source\repos\ShopRu\ShopRu.Presentation\obj\Debug\net5.0\ShopRu.Application.dll
+C:\Users\hp\source\repos\ShopRu\ShopRu.Presentation\obj\Debug\net5.0\ref\ShopRu.Application.dll
+C:\Users\hp\source\repos\ShopRu\ShopRu.Presentation\obj\Debug\net5.0\ShopRu.Application.pdb

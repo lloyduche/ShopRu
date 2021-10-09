@@ -1,11 +1,15 @@
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using ShopRu.Application.Customers.Commands;
+using ShopRu.Application.Customers.Queries;
 using ShopRu.Persistence;
 using ShopRu.Persistence.Context;
+using System.Reflection;
 
 namespace ShopRu
 {
@@ -27,7 +31,11 @@ namespace ShopRu
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ShopRu", Version = "v1" });
             });
-       
+
+           services.AddScoped<IShopRuDbContext, ShopRuDbContext>();
+           services.AddMediatR(typeof(GetAllCustomerQuery).Assembly);
+           
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
