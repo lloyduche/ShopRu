@@ -53,14 +53,29 @@ namespace ShopRu.Application.Invoices.Handlers
                 //pass the bill to generate the total discount
                  result = await _discountLogic.CalculateDiscount(request, type);
             }
-            
 
-            //if(GetCustomer.DateCreated > )
-            //{
-            //    var type = "OverTwoYears";
-            //    //pass the bill to generate the total discount
-            //    var result = await _discountLogic.CalculateDiscount(request, type);
-            //}
+
+            if (GetCustomer.IsAffliate == false && GetCustomer.IsEmployee == false)
+            {
+                var year = GetCustomer.DateCreated.AddYears(2);
+                if ( DateTime.Now >= year )
+                {
+                    var type = "OverTwoYears";
+                    //pass the bill to generate the total discount
+                    result = await _discountLogic.CalculateDiscount(request, type);
+
+                }
+                else { 
+               
+                    return new ResponseDto<InvoiceDto>
+                    {
+                        Message = $"Customer with id: {request.CreateInvoiceDto.CustomerId} is not Qualified",
+                        Succeeded = false,
+                        Data = null
+                    };
+                }
+            }
+           
             return new ResponseDto<InvoiceDto>
             {
                 Message = $"Invoice Id {result.InvoiceId}",

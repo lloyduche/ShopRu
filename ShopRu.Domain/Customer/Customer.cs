@@ -21,6 +21,6 @@ namespace ShopRu.Domain.Customer
         public string  Email { get; set; }
         public bool IsAffliate { get; set; }
         public bool IsEmployee { get; set; }
-        public DateTime DateCreated { get; set; }
+        public DateTime DateCreated { get; set; } = DateTime.Now;
     }
 }
