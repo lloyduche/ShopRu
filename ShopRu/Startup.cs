@@ -7,6 +7,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using ShopRu.Application.Customers.Commands;
 using ShopRu.Application.Customers.Queries;
+using ShopRu.Application.Logic;
 using ShopRu.Persistence;
 using ShopRu.Persistence.Context;
 using System.Reflection;
@@ -33,6 +34,7 @@ namespace ShopRu
             });
 
            services.AddScoped<IShopRuDbContext, ShopRuDbContext>();
+           services.AddScoped<IDiscountLogic, DiscountLogic>();
            services.AddMediatR(typeof(GetAllCustomerQuery).Assembly);
            
             

@@ -1,5 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using ShopRu.Application.Invoices.Model;
+using ShopRu.Application.Invoices.Queries;
 using ShopRu.Model;
 using System;
 using System.Collections.Generic;
@@ -22,12 +24,18 @@ namespace ShopRu.Controllers
 
 
 
-        [HttpGet("getclientById")]
-        [ProducesResponseType(typeof(ResponseDto<object>), 200)]
+        [HttpPost("GenerateInvoice")]
+        [ProducesResponseType(typeof(ResponseDto<InvoiceDto>), 200)]
         [ProducesResponseType(typeof(string), 500)]
-        public async Task<IActionResult> GetInvoice([FromBody] object id)
+        public async Task<IActionResult> GetInvoice([FromBody] CreateInvoiceDto model)
         {
-            return null;
+            if (ModelState.IsValid)
+            {
+                var result = await _mediator.Send(new GenerateInvoiceQuery {  CreateInvoiceDto = model});
+                return Ok(result);
+            }
+
+            return BadRequest();
         }
     }
 }

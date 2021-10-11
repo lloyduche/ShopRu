@@ -1,6 +1,8 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using ShopRu.Application.Discounts.Commands;
 using ShopRu.Application.Discounts.Model;
+using ShopRu.Application.Discounts.Queries;
 using ShopRu.Domain.Discount;
 using ShopRu.Model;
 using System;
@@ -23,20 +25,22 @@ namespace ShopRu.Controllers
 
         #region Get Discount
         [HttpGet("AllDiscount")]
-        [ProducesResponseType(typeof(List<DiscountDto>), 200)]
+        [ProducesResponseType(typeof(ResponseDto<List<DiscountDto>>), 200)]
         [ProducesResponseType(typeof(string), 500)]
-        public async Task<IActionResult> Get(string id)
+        public async Task<IActionResult> Get()
         {
-            return null;
+            var result = await _mediator.Send(new GetAllDiscountQuery());
+            return Ok(result);
         }
 
 
         [HttpGet("DiscountType")]
-        [ProducesResponseType(typeof(DiscountDto), 200)]
+        [ProducesResponseType(typeof(ResponseDto<DiscountDto>), 200)]
         [ProducesResponseType(typeof(string), 500)]
-        public async Task<IActionResult> GetDiscountType(string Type)
+        public async Task<IActionResult> GetDiscountType(string type)
         {
-            return null;
+            var result = await _mediator.Send(new GetDiscountByTypeQuery{ DiscountType = type });
+            return Ok(result);
         }
 
         #endregion
@@ -45,11 +49,18 @@ namespace ShopRu.Controllers
         #region Post Request
 
         [HttpPost("create")]
-        [ProducesResponseType(typeof(ResponseDto<DiscountDto>), 200)]
+        [ProducesResponseType(typeof(ResponseDto<string>), 200)]
         [ProducesResponseType(typeof(string), 500)]
-        public async Task<IActionResult> Create([FromBody] Discount model)
+        public async Task<IActionResult> Create([FromBody] CreateDiscountDto model)
         {
-            return null;
+            if (ModelState.IsValid)
+            {
+                var result = await _mediator.Send(new CreateDiscountCommand { createDiscountDto = model });
+                return Ok(result);
+            }
+
+
+            return BadRequest();
         }
 
         #endregion

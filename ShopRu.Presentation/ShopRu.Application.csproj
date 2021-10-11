@@ -6,13 +6,8 @@
 
   <ItemGroup>
     <Folder Include="Customers\Validators\" />
-    <Folder Include="Discounts\Commands\" />
-    <Folder Include="Discounts\Handlers\" />
-    <Folder Include="Discounts\Queries\" />
     <Folder Include="Discounts\Validators\" />
     <Folder Include="Invoices\Commands\" />
-    <Folder Include="Invoices\Handlers\" />
-    <Folder Include="Invoices\Queries\" />
     <Folder Include="Invoices\Validators\" />
   </ItemGroup>
 

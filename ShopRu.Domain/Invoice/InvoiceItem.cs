@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace ShopRu.Domain.Invoice
 {
@@ -6,11 +7,10 @@ namespace ShopRu.Domain.Invoice
     {
 
         [Key]
-        public int InvoiceItemId { get; set; }
+        public string InvoiceItemId { get; set; } = Guid.NewGuid().ToString();
         public long Quantity { get; set; }
         public string ItemId { get; set; }
-        public Item Item { get; set; }
-
-       
+        
     }
 }
+

@@ -11,13 +11,13 @@ namespace ShopRu.Domain.Invoice
     {
 
         [Key]
-        public string InvoiceId { get; set; }
-        public DateTime InvoiceDate { get; set; }
-        public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
-        public DateTime DueDate { get; set; }
+        public string InvoiceId { get; set; } = Guid.NewGuid().ToString();
+        public DateTime InvoiceDate { get; set; } = DateTime.Now;
+        public decimal Discount { get; set; }
+        public decimal TotalAmount { get; set; }
+        public decimal SubTotal { get; set; }
         public string CustomerId { get; set; }
-        public ICollection<InvoiceItem> Items { get; set; }
+        public List<InvoiceItem> Items { get; set; }
         
     }
 

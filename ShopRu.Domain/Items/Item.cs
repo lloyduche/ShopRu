@@ -10,7 +10,7 @@ namespace ShopRu.Domain
     public class Item
     {
         [Key]
-        public string  ItemId { get; set; }
+        public string ItemId { get; set; } 
 
         public string Type { get; set; }
 

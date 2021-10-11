@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace ShopRu.Domain.Discount
 {
@@ -6,7 +7,7 @@ namespace ShopRu.Domain.Discount
     {
 
         [Key]
-        public string Id { get; set; }
+        public string Id { get; set; } = Guid.NewGuid().ToString();
 
         public decimal Rate { get; set; }
         public string  Type { get; set; }
